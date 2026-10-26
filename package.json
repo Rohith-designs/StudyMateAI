@@ -1,0 +1,23 @@
+{
+  "name": "studymate-ai-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "StudyMateAI — Verified AI Engineering Study Hub (PVPSIT)",
+  "scripts": {
+    "start:server": "cd server && npm start",
+    "start:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build",
+    "test:server": "cd server && node test-api.js"
+  },
+  "keywords": [
+    "studymate",
+    "rag",
+    "engineering",
+    "pvpsit",
+    "react",
+    "nodejs",
+    "tailwind"
+  ],
+  "author": "StudyMateAI Team",
+  "license": "MIT"
+}
